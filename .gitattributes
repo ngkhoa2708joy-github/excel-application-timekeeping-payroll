@@ -1,2 +1,9 @@
-*.html linguist-vendored
+# Ignore LaTeX files in language stats
 *.tex linguist-vendored
+*.aux linguist-vendored
+*.log linguist-vendored
+*.toc linguist-vendored
+*.out linguist-vendored
+
+# Ensure Python is counted
+*.py linguist-detectable=true
